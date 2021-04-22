@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="icon/apps/windows95.svg" type="image/x-icon">
+    <title>WindowsLive.mg</title>
+</head>
+<body>
+    <section class="fenetre">
+       <div class="logiciels">
+      <img id="fox"  class=""   name="fox" src="icon/apps/cs-workspaces.svg" alt="">
+        <br>
+        <label id="lab" for="fox" class="">CePC</label>
+        <br>
+        <img id="fox" name="fox" class="" src="icon/apps/AdobeAudition.svg" alt="">
+        <br>
+        <label id="lab" class="" for="fox">Adobe Audition</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/android-studio.svg" alt="">
+        <br>
+        <label id="lab" for="fox">Android Studio</label>
+        <br>
+        <img id="fox1" class="n" onclick="selected()"   name="fox" src="icon/apps/appimagekit-kitty.svg" alt="">
+        <br>
+        <label id="lab1" class="n" for="fox">Terminal</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/caprine.svg" alt="">
+        <br>
+        <label id="lab" for="fox">Messenger</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/code.svg" alt="">
+        <br>
+        <label id="lab" for="fox">VSCode</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/sublime-text-3.svg" alt="">
+        <br>
+        <label id="lab" for="fox">Sublim Text</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/evernote.svg" alt="">
+        <br>
+        <label  id="lab" for="fox">PHP Server</label>
+        
+    </div>
+    <div class="logiciels">
+        <img id="fox" name="fox" src="icon/apps/filezilla.svg" alt="">
+        <br>
+        <label id="lab" for="fox">Filezilla</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/firefox-beta-bin.svg" alt="">
+        <br>
+        <label id="lab" for="fox">Firefox</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/folder_doc_q4os_startmenu.svg" alt="">
+        <br>
+        <label id="lab" for="fox">Film</label>
+        <br>
+        <img id="fox" name="fox" src="icon/apps/vlc.svg" alt="">
+        <br>
+        <label id="lab" for="fox">VLC player</label>
+    </div>
+    </section>
+    <div class="log">
+        <input type="text" name="" id="" cols="30" rows="10"></textarea>
+       <h1 id="quite" onclick="unselected()">x</h1>
+    </div>
+    <div id="monmenu" class="" onmouseout="menun()"> 
+    </div>
+    <nav>
+          <div id="cv">
+            <img id="menu" onclick="menu()" src="icon/apps/windows95.svg" alt="">
+          </div>
+        <ul id="nav">
+            <li><img src="icon/apps/4diac-ide.svg" alt=""></li>
+            <li class="idem">Explorer</li>
+            <li><img src="icon/apps/7-days-to-die.svg" alt=""></li>
+            <li class="idem">Game 7TtoDIe</li>
+            <li><img src="icon/apps/youtube.svg" alt=""></li>
+            <li class="idem">Youtube</li>
+            <li><img src="icon/apps/appimagekit-Freeter.svg" alt=""></li>
+            <li class="idem">Freeter</li>
+        </ul>
+      <div class="ic">
+        <img src="icon/apps/skype.svg" alt="">
+        <img src="icon/apps/mx-system-sounds.svg" alt="">
+        <img src="icon/apps/wifi-radar.svg" alt="">
+      </div>
+    </nav>
+</body>
+<script>
+     function selected(){
+        document.getElementById("fox1").className = "selected";
+        document.querySelector(".log").style = "display:inherit";
+        document.getElementById("lab1").className = "selected";
+     }
+    function unselected(){
+        document.getElementById("fox1").className ="n";
+        document.querySelector(".log").style = "display:none";
+        document.getElementById("lab1").className = "n";
+    }
+    function menu(){
+        document.getElementById("monmenu").className = "monmenu";
+    }
+    function menun(){
+        document.getElementById("monmenu").className = "";
+    }
+</script>
+</html>

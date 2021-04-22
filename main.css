@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(4, 115, 163);
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    float: right;
+}
+nav ul{
+    display: flex;
+    background-color: rgba(4, 46, 80, 0.721);
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 8px;
+}
+nav img{
+    width: 20px;
+    height: 20px;
+}
+nav ul li img{
+    padding-top: 9px;
+    width: 15px;
+    height: 15px;
+    cursor:pointer;
+}
+#cv{
+    position: absolute;
+}
+#menu{
+   transition: 0.3s;
+   margin: 3px 0px 0px 10px;
+}
+#menu:hover{
+    width: 14px;
+    height: 14px;
+    margin: 3px 0px 0px 15px;
+}
+.idem{
+    padding: 7px 15px 5px 0px;
+    color: white;
+    font-size: 13px;
+    border-right: white solid 2px;
+    cursor:pointer;
+}
+.fenetre{
+    width: 100%;
+    height:100vh;
+    background-image: url("icon/victoria-heath-MAGAXAYq_NE-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+.ic{
+    position: absolute;
+    right: 10px;
+}
+.fenetre div{
+    width: 20vh;
+   text-align: center;
+}
+.fenetre img{
+    width: 35px;
+    height: 35px;
+    padding: 8px 0px 0px 0px;
+
+}
+.fenetre label{
+    font-size: 10px;
+}
+#fox1, #fox{
+    margin-top: 8px;
+    padding: 5px ;
+}
+.log{
+    width: 111vh;
+    height:562px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    background: url("icon/Capture\ d’écran_2021-03-01_22-56-38.png");
+    box-shadow: 10px 10px 10px black;
+    display:none;
+}
+.selected{
+    background-color: rgb(45, 45, 255);
+    color: white;
+    cursor: wait;
+}
+.log h1{
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top: -1px;
+    left: 11px;
+    cursor: pointer;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0);
+    transition: 0.2s;
+}
+.log h1:hover{
+    color: white;
+}
+input{
+    margin-top: 10%;
+    margin-left: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    outline: none;
+}
+.monmenu{
+    width: 320px;
+    height: 520px;
+    position: absolute;
+    box-shadow: 10px 10px 10px black;
+    background: url("icon/lk.png");
+    bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
